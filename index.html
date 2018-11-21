@@ -1,0 +1,30 @@
+<!doctype html>
+<header>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</header>
+<html ng-app= "TestInnovela" ng-controller="myController">
+      <head>
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+            <script src="controller.js"></script>
+            <script src="service.js"></script>
+      </head>
+      <body>
+            <nav>
+                  <div class="nav-wrapper">
+                        <a href="#" class="brand-logo">Logo</a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                              <li><a href="sass.html">Sass</a></li>
+                              <li><a href="badges.html">Components</a></li>
+                              <li><a href="collapsible.html">JavaScript</a></li>
+                        </ul>
+                  </div>
+            </nav>
+            <div class="container">
+                  <label>Name:</label>
+                  <input type="text" ng-model="yourName" placeholder="Enter a name here">
+                  <hr>
+                  <h1>Hello! {{yourName}}!</h1>
+            </div>
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      </body>
+</html>
